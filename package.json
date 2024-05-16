@@ -1,0 +1,25 @@
+{
+  "name": "starknetbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "dev": "tsx src/Main.ts",
+    "start": "tsc src/Main.ts",
+    "test": "vitest",
+    "vitest": "vitest --watch --config vitest.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "dotenv": "^16.4.5",
+    "pnpm": "^8.15.6",
+    "starknet": "^6.4.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "vitest": "^1.4.0"
+  }
+}
